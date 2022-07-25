@@ -35,7 +35,7 @@ if credentials["channel"] == "":
 
 token = credentials["token"]
 channel = credentials["channel"]
-sub = "dogpictures"
+sub = credentials["subreddit"]
 start_time = datetime.utcnow().timestamp()
 
 def prev_submissions():
